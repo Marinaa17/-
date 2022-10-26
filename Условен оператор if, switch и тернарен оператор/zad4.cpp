@@ -7,7 +7,7 @@ int main()
 	int number1, number2, number3;
 	cin >> number1>>number2>>number3;
 
-	int biggest, middle, smallest=0;
+	int biggest, middle, smallest;
 
 	if (number1>number2 && number1 > number3)
 	{
@@ -54,6 +54,12 @@ int main()
 			smallest = number1;
 		}
 	}
+	else
+	{
+		smallest = number1;
+		middle = number2;
+		biggest = number3;
+	}
 
-	cout <<smallest<<middle<<biggest;
+	cout <<smallest<<" "<< middle<<" "<< biggest;
 }
