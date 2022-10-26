@@ -53,6 +53,12 @@ int main()
 			smallest = number1;
 		}
 	}
+	else
+	{
+		smallest = number1;
+		middle = number2;
+		biggest = number3;
+	}
 	
 	if (number1==0 && number2==0 && number3==0)
 	{
@@ -60,8 +66,6 @@ int main()
 	}
 	else
 	{
-		cout << biggest<< middle<< smallest;
+		cout << biggest<< " " << middle<< " " << smallest;
 	}
-
-
 }
