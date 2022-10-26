@@ -19,4 +19,8 @@ int main()
 	{
 		cout << number3;
 	}
+	else
+	{
+		cout << number1;
+	}
 }
